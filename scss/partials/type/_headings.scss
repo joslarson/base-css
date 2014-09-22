@@ -1,0 +1,18 @@
+%block-heading { font-family: $heading-font-family; margin-bottom: .3em; }
+%inline-heading { 
+    float: left;
+    padding-right: .2rem;
+    &:after { content: "."}
+}
+
+h1 { @extend %block-heading; font-size: 3rem; }
+
+h2 { @extend %block-heading; font-size: 2.2rem; }
+
+h3 { @extend %block-heading; font-size: 1.8rem; }
+
+h4 { @extend %block-heading; font-size: 1.3rem; text-transform: uppercase; }
+
+h5 { @extend %inline-heading; font-size: 1em; }
+
+h6 { @extend %inline-heading; font-size: 1em; }

@@ -1,0 +1,31 @@
+body > header {
+    padding: 2.5rem;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: scroll;
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(235,235,235, .5);
+    z-index: 10;
+}
+body > header h1 {
+    font-size: 3.0rem;
+    margin-bottom: .5em;
+}
+
+body > header nav a {
+    display: block;
+    font-size: 1.5rem;
+    color: purple;
+    text-decoration: none;
+    padding-bottom: .5em;
+}
+
+body > section {
+    margin-left: 16.3rem;
+    max-width: 41rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    min-height: 100%;
+    background: white;
+}
